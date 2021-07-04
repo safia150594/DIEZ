@@ -1,8 +1,19 @@
+@font-face {
+    font-family: 'ge_ssmedium';
+    src: url('../font/ge_ss_text_medium-webfont.woff2') format('woff2'), url('../font/ge_ss_text_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ge_ssmedium'!important;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 .content {
     overflow-x: hidden;
-    font-family: 'Lato', sans-serif;
-    color: #505962;
+    font-family: 'ge_ssmedium'!important;
+    color: #a2cdf8;
 }
 
 
@@ -1226,7 +1237,7 @@ html .slide1 {
 
 .slide1 {
     font-size: 1.6rem;
-    font-family: "Poppins", sans-serif;
+    font-family: 'ge_ssmedium'!important;
 }
 
 @media (min-width: 992px) {
@@ -1299,7 +1310,7 @@ html .slide1 {
 }
 
 .slide .slide__content--headings .top-title {
-    font-family: "Playball", cursive;
+    font-family: 'ge_ssmedium'!important;
     font-size: 2vh;
 }
 
