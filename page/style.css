@@ -1102,7 +1102,12 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1600px) {
+    .slide .slide__img img {
+        max-width: unset!important;
+        width: unset!important;
+    }
+}
 
 @media (max-width: 991px) {
     .content .caption {
