@@ -1199,10 +1199,10 @@ h4 {
         padding: 0px!important;
     }
     .slide .slide__content--headings .title {
-        font-size: 3vh !important;
+        font-size: 53px!important;
     }
     .content .navbar-brand img {
-        width: 19vh;
+        width: 193px;
     }
 }
 
@@ -1720,6 +1720,7 @@ html .slide1 {
     align-items: center;
     align-self: center;
     padding: 50px;
+    margin: 0 auto;
 }
 
 .day p {
@@ -1762,3 +1763,118 @@ h3.heading.project-tile.aos-init {
 /* img.example-image.w-100 {
     height: 223px;
 } */
+
+@media (max-width: 400px) {
+    .slide .slide__content--headings .title {
+        font-size: 6vh !important;
+    }
+    .content .navbar-brand img {
+        width: 30vh;
+    }
+    .takeaway p {
+        line-height: 1.2;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+    .content .row.padding {
+        padding: 0rem 0 1rem;
+    }
+    .content h3.heading {
+        margin-bottom: 1rem;
+    }
+    .takeaway p {
+        font-size: 15px;
+    }
+    .takeaway h3 {
+        font-size: 23px;
+    }
+    .content h3.heading {
+        font-size: 18px;
+    }
+    .content .heading-underline {
+        margin: 0 auto 21px;
+    }
+    .content .jumbotron {
+        padding: 1rem 0 0rem;
+    }
+    .portfolio-item img {
+        object-fit: cover;
+        height: 205px;
+    }
+    .service {
+        background-image: url(../image/dubai-city.jpg);
+        background-attachment: fixed;
+        border-radius: 50%;
+        background-size: 130% 100%;
+        height: auto;
+        min-height: 159px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        padding: 15px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .content .offset:before {
+        height: 0rem;
+        margin-top: 0rem;
+    }
+    .form-control {
+        height: calc(9vh + 2px);
+    }
+    .content .form-control {
+        font-size: 3vh;
+    }
+    .content footer {
+        font-size: 3.5vh;
+    }
+    .content .skill p {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #50BCBA;
+        margin-bottom: 0px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #e6e6e6;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .h4,
+    h4 {
+        font-size: 17px;
+    }
+    .lead {
+        font-size: 13PX;
+    }
+    .pt-5,
+    .py-5 {
+        padding-top: 1rem!important;
+    }
+}
+
+@media screen and (min-width:516px) and (max-width:650px) {
+    .col-sm-6 {
+        max-width: 33%;
+    }
+    .pl-5,
+    .px-5 {
+        padding-left: 0rem!important;
+    }
+    .mr-5,
+    .mx-5 {
+        margin-right: 0rem!important;
+    }
+    .ml-5,
+    .mx-5 {
+        margin-left: 0rem!important;
+    }
+    .pr-5,
+    .px-5 {
+        padding-right: 0rem!important;
+    }
+}
